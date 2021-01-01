@@ -1,0 +1,331 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Menu Section*/
+.header-full{
+    height: 870px;
+}
+.header-menu-top{
+     background: url(./img/header_back_bg.png), url(./img/main_header_images.png);
+     background-repeat: no-repeat;
+     background-position: center bottom, center top;
+     background-size: contain, cover;
+     height: 800px;
+}
+.headermenu{
+    background: url(./img/menu_bg.png) no-repeat top;
+}
+.headermenu::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.menu-left{
+    float: left;
+    width: 35%;
+}
+.rotate-div{
+    width: 280px;
+    height: 145px;
+    background: #e1ecf2;
+    color: #127ea5;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid #fff;
+    transform: rotate(-8deg);
+    position: relative;
+    top: -40px;
+    left: 80px;
+}
+.menu-right{
+    margin-left: 50px;
+    display: inline-block;
+}
+.menu-right li{ 
+    display: inline-block;
+}
+.menu-right li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;
+    line-height: 50px;
+
+}
+/*Contaent Section*/
+.header-conten::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header-conten{
+    z-index: 1;
+}
+.content-left{
+    float: left;
+    width: 67%;
+    background: url(./img/header_center_content_left_bg.png) no-repeat center;
+    padding: 100px 0;
+    background-size: contain;
+    background-position: 0px -6px;
+}
+.content-img{
+    position: relative;
+    left: 300px;
+    top: 12px;
+    width: 340px;
+}
+.plan-text{
+    position: relative;
+    left: -40px;
+    color:#ded90e;
+    font-weight: 600;
+}
+/*content-right*/
+.content-right{
+    position: relative;
+    top: -60px;
+}
+.content-full{
+    background: #299fca;
+    width: 300px;
+    float: right;
+    border-radius: 10px;
+    border: 8px solid #7ebee0;
+    height: 500px;
+}
+.content-top{
+    margin-top: 20px;
+    background: url(./img/header_center_content_right_shape_bg.png) no-repeat;
+    position: relative;
+    left: -25px;
+}
+.content-top h1{
+    font-size: 18px;
+    padding: 13px 0;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    left: 20px;
+}
+.forms{
+    margin-bottom: 3px;
+    width: 93%;
+    border: 5px solid #7ebee0; 
+    border-radius: 5px;
+    color: #127ea5;
+}
+.content-bottom{
+    background: url(./img/siir.png) no-repeat left;
+    height: 180px;
+    position: relative;
+    left: 20px;
+}
+/*Header-bottom*/
+.header-bottom{
+    background: url(./img/header_font_bg.png) no-repeat ;
+    background-position: center top;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+    top: -380px;
+}
+.tex-header-bottom{
+    margin-top: 150px;
+}
+.positin{
+    position: relative;
+    top: 4px;
+}
+.toper1{
+    padding-bottom: 4px;
+    border-bottom: 1px dashed #fff;
+    margin-bottom: 4px;
+}
+.text-formet-right{
+    margin-top: 150px;
+}
+
+/*Header Bottom Right*/
+.offers{
+    position: relative;
+    left: 25px;
+}
+.offer-detailes{
+    position: relative;
+    top: -185px;
+}
+.big{
+    height: 150px;
+    width: 150px;
+    background: #ded90e;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+    left: 300px;
+}
+.big h2{
+    top: 30px;
+    position: relative;
+    color: #127ea5;
+}
+.big h3{
+    top: 22px;
+    position: relative;
+    color: #127ea5;
+    left: -3px;
+}
+.small{
+    height: 70px;
+    width: 70px;
+    background: #127ea5;
+    text-align: center;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: relative;
+    top: -138px;
+    left: 427px;
+}
+.small h5{
+    top: 18px;
+    position: relative;
+    color: #fff;
+}
+.boton{
+    color: #127ea5;
+    background: #81ffff;
+    padding: 2px 25px;
+}
+.boton2{
+    color: #81ffff;
+    background: #2690b6;
+    padding: 2px 25px;
+}
+.boton2:hover{
+    color: #127ea5;
+    background: #81ffff;
+}
+.hbhr{
+    color: #81ffff;
+    margin-top: 0;
+}
+.list-offer-items{
+    background: #127ea5;
+    margin-top: -16px;
+}
+.list-offer li i{
+    margin-right: 5px;
+    list-style: none;
+    font-size: 16px !important;
+    color: #81ffff;
+    margin-top: 2px;
+}
+.list-offer li{
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.7rem;
+    color: #fff;
+}
+.list-offer a{
+    text-decoration: none;
+    color: #fff;
+}
+/*Map Section*/
+.midel-map{
+    background: #d6e6ef;
+    padding-top: 15px;
+    height: 670px;
+    padding-bottom: 15px;
+}
+.map-top{
+    text-align: center;
+    color: #127ea5;
+}
+.map-top a{
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.baground-map{
+    background: rgba(0, 0, 0, 0) url("./img/map.png") no-repeat scroll center center / contain;
+    min-height: 580px;
+}
+.africa-turijom{
+    height: 285px;
+    width: 275px;
+    background: #f0eded;
+    color: #7f8b9b;
+    position: relative;
+    top: 140px;
+    left: 240px;
+    border-radius: 10px;
+}
+.after-img-border{
+    position: relative;
+    left: 515px;
+    top: 30px;
+}
+
+/*contect Section*/
+.contect{
+    height: 335px;
+    background: #127ea5;
+    padding: 10px;
+    color: #fff;
+}
+.text-bg{
+    background: rgba(0, 0, 0, 0) url("./img/input_bg.png") no-repeat scroll left center;
+    border: medium none;
+    color: #fff;
+    font-size: 15px;
+    height: 34px;
+    width: 194px;
+    padding-left: 6px;
+}
+.sub-btn{
+    text-decoration: none;
+    border-radius: 6px;
+    position: relative;
+    top: 3px;
+    left: -5px;
+}
+.sub-btn a{
+    text-decoration: none;
+}
+.social{
+    margin-top: 20px;
+}
+.social i{
+    background: #3bb3de none repeat scroll 0 0;
+    border-radius: 50%;
+    height: 30px;
+    padding-top: 7px;
+    position: relative;
+    text-align: center;
+    width: 30px;
+    margin-right: 10px;
+}
+.social a{
+    color: #fff;
+    text-decoration: none;
+}
+.contacet-us p{
+    position: relative;
+    top: -5px;
+    font-size: 14px;
+}
+.textara-bg{
+    background: rgba(0, 0, 0, 0) url("img/textarea_bg.png") no-repeat scroll left center;
+    border: medium none;
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    height: 59px;
+    padding-left: 10px;
+    width: 286px;
+}
+small{
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
